@@ -26,7 +26,7 @@ function Login() {
                         <i class="fab fa-google"></i>
                         <a href="#">Sign In with google</a>
                     </div>
-                    <p className="createNew">New ? <u><a href="#">Create account</a></u></p>
+                    <p className="createNew">New ? <u><a href="/join">Create account</a></u></p>
                 </div>
             </div>
             </div>
