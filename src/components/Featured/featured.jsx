@@ -3,7 +3,7 @@ import './featured.scss';
 import {destination} from './DataFeatured';
 function featured() {
     return (
-        <div className="container featured" id="featured">
+        <div className=" featured" id="featured">
             <div className="topFeatured">
                 <div className="left1">
                     <h1>Feature destinations</h1>

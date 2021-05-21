@@ -1,0 +1,88 @@
+.loginDiv{
+    background-color: rgb(255, 255, 255);
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginImg{
+    height: 100%;
+    width: 100%;
+}
+.rightLo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+   padding: 5% 0%;
+   h2{
+       padding-bottom: 30px;
+   }
+
+   p{
+       padding-bottom: 20px;
+   }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input{
+            border: 0;
+            background-color: transparent;
+            border-bottom: 1px solid black;
+            outline: none;
+            margin-top: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin-top: 20px;
+        }
+    }
+}
+.leftLo{
+    display: flex;
+    width: 100%;
+    // padding: 5% 0%;
+    background-color: white;
+}
+.loginBg{
+    background-color: rgb(141, 197, 197);
+    // height: 60vh;
+    // padding: 5% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a{
+        color: black;
+    }
+}
+
+.signInLink{
+    background-color: rebeccapurple;
+    padding: 5px 30px;
+    border-radius: 20px;
+    color: white !important;
+    margin-bottom: 10px;
+}
+.googleLog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    padding: 5px 30px;
+    border-radius:20px ;
+    color: white !important;
+    a{
+        margin-left: 10px;
+        color: white !important;
+        text-decoration: none !important;
+    }
+}
+
+.createNew{
+    margin-top: 5px;
+}

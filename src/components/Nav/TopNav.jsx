@@ -8,8 +8,8 @@ function TopNav() {
                 <img className="logo" src={Logo}/>
             </div>
             <div className="rightTN">
-                <a className="login" href="#">LogIn</a>
-                <a className="join" href="#">Join</a>
+                <a className="login" href="/login">LogIn</a>
+                <a className="join" href="/join">Join</a>
             </div>
         </div>
     )

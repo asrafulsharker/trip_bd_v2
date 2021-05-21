@@ -8,13 +8,13 @@ function Nav2() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="m-auto">
-                    <Nav.Link className="navItemLink" href="#home">Home</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Explore</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Featured</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Guides</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Testimonials</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Trending</Nav.Link>
-                    <Nav.Link className="navItemLink" href="#link">Contact Us</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/">Home</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/explore">Explore</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/featured">Featured</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/guides">Guides</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/testimonial">Testimonials</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/trending">Trending</Nav.Link>
+                    <Nav.Link className="navItemLink" href="/contact">Contact Us</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>

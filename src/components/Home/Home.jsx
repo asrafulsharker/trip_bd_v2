@@ -1,5 +1,13 @@
 import { useEffect,useRef } from 'react';
 import {init} from 'ityped';
+
+import Explore from '../Explore/Explore';
+import Featured from '../Featured/featured';
+import Testimonials from '../Testimonials/Testimonials';
+import Trending from '../Trending/Trending';
+import Guides from '../Guides/Guides';
+import Contact from '../Contact/Contact';
+
 import './Home.scss';
 import HomeImg from '../../images/hero1.png'
 function Home() {
@@ -14,6 +22,7 @@ function Home() {
 
     },[])
     return (
+        <>
         <div className="Home container">
             <form>
                 <input type="text" placeholder="Where to go?"/>
@@ -29,6 +38,13 @@ function Home() {
             </div>
             </div>
         </div>
+        <Explore/>
+        <Featured/>
+        <Guides/>
+        <Testimonials/>
+        <Trending/>
+        <Contact/>
+        </>
     )
 }
 

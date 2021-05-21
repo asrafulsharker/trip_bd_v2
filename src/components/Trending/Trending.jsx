@@ -5,7 +5,7 @@ export default function Trending() {
         <div className="trending" id="trending">
             <div className="topTrending">
                 <div className="leftT">
-                    <h1>Feature destinations</h1>
+                    <h1>Trending</h1>
                 </div>
                 <div className="rightT">
                     <a href="#">View all</a><i class="fas fa-chevron-right"></i>
