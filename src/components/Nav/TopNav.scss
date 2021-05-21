@@ -1,0 +1,51 @@
+.logo{
+    height: 35px;
+    cursor: pointer;
+}
+.TopNav{
+    display: flex;
+    margin: 20px 0px;
+    padding: 0% 5%;
+    align-items: center;
+
+    .leftTN{
+        flex: .5;
+    }
+    .rightTN{
+        flex: .5;
+        justify-content: end;
+        align-items: center;
+        text-align: right;
+
+        .login{
+            text-decoration: none;
+            color: white;
+            background-color: #FB8F1D;
+            padding: 5px 8px 5px 8px;
+            border-radius: 5px;
+            border: 1px solid #FB8F1D;
+            margin: 0px 10px;
+        }
+        .join{
+            text-decoration: none;
+            color: white;
+            background-color: #FB8F1D;
+            padding: 5px 8px;
+            border-radius: 5px;
+            border: 1px solid #FB8F1D;
+            margin: 0px 10px;
+        }
+    }
+}
+
+.NavB{
+    // background-color: red !important;
+}
+
+.navItemLink{
+    // background-color: red;
+    margin: 0px 5px;
+    padding: 20px 30px !important;
+    border-radius: 5px;
+    border: 1px solid black;
+}

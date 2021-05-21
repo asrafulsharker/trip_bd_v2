@@ -1,0 +1,26 @@
+.explore{
+    display: flex;
+    height:80vh;
+    .leftEx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 80%;
+        }
+    }
+    .rightEx{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a{
+            background-color: #FB8F1D;
+            text-decoration: none;
+            padding: 5px 8px;
+            border-radius: 5px;
+            color: white;
+            width: 22%;
+        }
+
+    }
+}

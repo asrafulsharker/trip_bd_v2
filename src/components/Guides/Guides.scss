@@ -1,0 +1,28 @@
+.guides{
+    display: flex;
+   height: 80vh;
+    .leftG{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a{
+            background-color: #FB8F1D;
+            text-decoration: none;
+            padding: 5px 8px;
+            border-radius: 5px;
+            color: white;
+            width: 22%;
+        }
+
+    }
+    }
+    .rightG{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        img{
+            width: 80%;
+        }
+
+
+}
