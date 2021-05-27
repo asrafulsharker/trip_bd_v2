@@ -1,7 +1,11 @@
 import React from 'react'
 import './Login.scss';
+
 import LoginImg from '../../../images/login.jpg';
-function Login() {
+const Login=()=> {
+
+
+
     return (
         <div className="loginDiv ">
             <div className="loginBg container">
@@ -16,10 +20,25 @@ function Login() {
 
 
                     <form>
-                        <input type="text" placeholder="username"/><br/>
-                        <input type="password" placeholder="Password"/>
+                        <input 
+                        type="text" 
+                        placeholder="username"
+                        placeholder="Email"
+                        autoFocus
+                        required
+                        />
+                        <p className="errorMsg"></p>
+                        
+                        <input 
+                        type="password" 
+                        required
+                        placeholder="Password"
+                        />
+                        <p className="errorMsg"></p>
                         <a className="forgot" href="#">Forgot Password ?</a>
                         <a className="signInLink" href="#">Sign In</a>
+                        <div className="btnContainer">
+                        </div>
                     </form>
                     or
                     <div className="googleLog">
